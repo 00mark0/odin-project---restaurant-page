@@ -1,5 +1,6 @@
 import { cleanRes } from "./components/reservations";
 import { cleanAddress } from "./components/address";
+import "../../styles/bookings.css";
 
 export const createBookingPage = () => {
   const content = document.getElementById("content");

@@ -4,7 +4,7 @@ const reservationsContent = `
 <div class="resContainer">
     <div class="schedule">
         <h3>Time</h3>
-        <p>Open</p>
+        <p>OPEN</p>
         <div class="time">
             <h4>Monday<span>. . . . . . . . . .</span> 10AM-11PM</h4> 
         </div>
@@ -30,9 +30,9 @@ const reservationsContent = `
     <div class="reservations">
         <h3>Reservation</h3>
         <p>BOOK YOUR TABLE</p>
-        <form>
+        <form id="reservationForm">
           <label for="people"></label>
-            <select id="people" name="people">
+            <select id="people" name="people" autocomplete="on">
                 <option value="1">1 person</option>
                 <option value="2" selected>2 people</option>
                 <option value="3">3 people</option>
@@ -45,17 +45,17 @@ const reservationsContent = `
                 <option value="10">10 people</option> 
             </select>
             <label for="date"></label>
-            <input type="date" id="date" name="date" placeholder="Date" required>
+            <input type="date" id="date" name="date" placeholder="Date" required autocomplete="on">
             <label for="time"></label>
-            <input type="time" id="time" name="time" min="10:00" max="2:00" placeholder="Time" required>
+            <input type="time" id="time" name="time" min="10:00" max="2:00" placeholder="Time" required autocomplete="on">
             <label for="name"></label>
-            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="text" id="name" name="name" placeholder="Name" required autocomplete="on">
             <label for="phone"></label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" required autocomplete="on">
             <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="email" id="email" name="email" placeholder="Email" required autocomplete="on">
         </form>
-        <button type="submit">BOOK NOW</button>
+        <button type="submit" form="reservationForm">BOOK NOW</button>
     </div>
 </div>
 `;

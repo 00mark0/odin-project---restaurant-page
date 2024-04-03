@@ -47,30 +47,6 @@ nav button:hover {
   color: #cebe91;
 }
 
-@media only screen and (max-width: 768px) {
-  /* Styles for mobile devices */
-  nav {
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  nav button {
-    margin-bottom: 1rem;
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* Styles for smaller desktop screens */
-  nav {
-    padding: 1rem;
-  }
-
-  nav button {
-    font-size: 0.8rem;
-  }
-}
-
 #content {
   display: flex;
   flex-direction: column;
@@ -89,25 +65,25 @@ nav button:hover {
 }
 
 .hero-content h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   text-align: center;
   color: #cebe91;
   font-family: "Playball", cursive;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   color: #ffffff;
 }
 
 .hero-content button {
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.2rem;
   border: none;
   background-color: #ffffff;
   color: #060606;
-  font-size: 0.8rem;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 15px;
   transition: 0.3s ease;
@@ -126,4 +102,30 @@ footer {
 footer a {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content {
+    margin-top: 5rem;
+  }
+
+  nav {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  nav button {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    padding: 1rem;
+  }
+
+  nav button {
+    font-size: 0.8rem;
+  }
 }
