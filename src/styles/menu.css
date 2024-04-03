@@ -65,6 +65,7 @@
   color: #232323;
   font-size: 1rem;
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .item p {
@@ -75,4 +76,5 @@
 .item .price {
   color: #cdc08e;
   font-weight: 700;
+  font-size: 1.2rem;
 }
