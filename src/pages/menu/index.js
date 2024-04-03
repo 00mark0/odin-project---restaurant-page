@@ -1,6 +1,9 @@
-import DOMPurify from "dompurify";
 import { cleanMenu } from "./components/menu";
 import { cleanLunch } from "./components/lunch";
+import { cleanStarters } from "./components/starters";
+import { cleanMainCourses } from "./components/mainCourses";
+import { cleanDesserts } from "./components/desserts";
+import { cleanBevs } from "./components/beverages";
 
 export const setMenuContent = () => {
   const content = document.getElementById("content");
@@ -22,6 +25,34 @@ export const setMenuContent = () => {
         lunchBtn.addEventListener("click", () => {
           menuFrame.innerHTML = "";
           menuFrame.innerHTML = cleanLunch;
+        });
+      }
+
+      if (startersBtn) {
+        startersBtn.addEventListener("click", () => {
+          menuFrame.innerHTML = "";
+          menuFrame.innerHTML = cleanStarters;
+        });
+      }
+
+      if (mainCourseBtn) {
+        mainCourseBtn.addEventListener("click", () => {
+          menuFrame.innerHTML = "";
+          menuFrame.innerHTML = cleanMainCourses;
+        });
+      }
+
+      if (dessertsBtn) {
+        dessertsBtn.addEventListener("click", () => {
+          menuFrame.innerHTML = "";
+          menuFrame.innerHTML = cleanDesserts;
+        });
+      }
+
+      if (bevsBtn) {
+        bevsBtn.addEventListener("click", () => {
+          menuFrame.innerHTML = "";
+          menuFrame.innerHTML = cleanBevs;
         });
       }
     });

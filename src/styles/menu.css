@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 93vh;
+  width: 100%;
+  background-image: url("../pages/menu/assets/images/menu-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuWrapper h2 {
+  color: #d4cba3;
+  font-size: 4rem;
+  font-family: "Playball", cursive;
+  padding: 20px;
+}
+
+.menu {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #d4cba3;
+  gap: 20px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.menuHeader h3 {
+  font-size: 1.5rem;
+  color: #484848;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.menuHeader h3:hover {
+  color: #d4cba3;
+}
+
+.menuFrame {
+  display: grid;
+  padding: 30px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item h4 {
+  color: #232323;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.item p {
+  color: #acacac;
+  font-weight: 500;
+}
+
+.item .price {
+  color: #cdc08e;
+  font-weight: 700;
+}

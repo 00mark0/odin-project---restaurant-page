@@ -22,7 +22,7 @@ const lunchContent = `
         <p>Juicy beef patty topped with melted cheddar cheese, crispy bacon, and all the classic fixings.</p>
         <p class="price">$12.99</p>
         </div>
-        <div class="item"></div>
+        <div class="item">
             <h4>Quinoa and Avocado Salad</h4>
             <p>Nutrient-rich quinoa mixed with creamy avocado, cherry tomatoes, and a zesty vinaigrette.</p>
             <p class="price">$13.99</p>
