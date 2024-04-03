@@ -11,7 +11,7 @@ const mainContent = `
     <section id="about">
         <h2>About</h2>
         <h3>Our history</h3>
-        <p>Bistro Bliss has been a cornerstone of culinary excellence since its inception in 31 B.C. Founded by passionate food enthusiasts, our journey began with a vision to create a dining experience that celebrates the essence of good food, warm ambiance, and impeccable service. Over the years, we have grown into a beloved establishment, cherished by locals and visitors alike for our commitment to quality and hospitality.</p>
+        <p>Bistro Bliss has been a cornerstone of culinary excellence since its inception in 420 B.C. Founded by passionate food enthusiasts, our journey began with a vision to create a dining experience that celebrates the essence of good food, warm ambiance, and impeccable service. Over the years, we have grown into a beloved establishment, cherished by locals and visitors alike for our commitment to quality and hospitality.</p>
         <button id="readMore">Read More</button>
         <dialog id="readMoreDialog">
         <p>Welcome to the heart of Bistro Bliss, where every dish tells a story and every moment is cherished.</p>
