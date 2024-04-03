@@ -5,7 +5,7 @@ const heroContent = `
   <div class="hero-content">
   <h1>Bistro Bliss</h1>
   <p>Welcome to Bistro Bliss</p>
-  <button>BOOK YOUR TABLE</button>
+  <button id="homeBook">BOOK YOUR TABLE</button>
   </div>
   <footer>
   <p><a href="https://www.pexels.com/photo/steamed-food-with-leafs-on-table-1833349/">Photo by Valeria Boltneva from Pexels</a></p>
